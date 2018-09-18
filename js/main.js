@@ -1,0 +1,1 @@
+const meaningOfLive = 42

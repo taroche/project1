@@ -1,6 +1,13 @@
 h1 {
-    color: blue
+    color: red;
 }
 P {
-    color: darkolivegreen
+    color: blue;
+}
+header a {
+    color: green;
+    text-decoration: none;
+}
+a {
+    color: orange;
 }

@@ -1,9 +1,15 @@
+*{
+    outline: solid 1px hotpink;
+}
+*{
+    box-sizing: border-box;
+}
 h1 {
     color: red;
     font-size: 3em;
 }
 .intro {
-    color: hotpink
+    color: yellow
 }
 P {
     color: blue;
@@ -15,3 +21,32 @@ header a {
 a {
     color: orange;
 }
+div {
+    border: 6px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+  }
+  .box2 {
+      position: relative;
+      top: -20px;
+      left: 20px;
+  }
+  .box3 {
+      position: relative;
+    border: 6px solid #949599;
+    height: 100px;;
+    width: 400px;
+  }
+  .box4 {
+      position: absolute;
+      right: 0;
+    border: 6px red;
+    height: 50px;
+    width: 200px;
+  }
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
